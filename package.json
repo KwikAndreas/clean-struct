@@ -1,0 +1,32 @@
+{
+  "name": "@xavorus/clean-struct",
+  "version": "1.0.0",
+  "description": "Easily make your project architecture clean",
+  "main": "clean-struct.js",
+  "bin": {
+    "clean-struct": "clean-struct.js"
+  },
+  "scripts": {
+    "test": "node clean-struct.js",
+    "install-global": "npm install -g ."
+  },
+  "keywords": [
+    "clean-architecture",
+    "folder-structure",
+    "scaffolding",
+    "react",
+    "nextjs",
+    "vite"
+  ],
+  "author": "Xavorus",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "fs-extra": "^11.3.2",
+    "inquirer": "^13.0.1"
+  }
+}
