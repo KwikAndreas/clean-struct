@@ -5,7 +5,6 @@ import fs from "fs-extra";
 import path from "path";
 import chalk from "chalk";
 
-// Template struktur untuk berbagai framework
 const frameworkTemplates = {
   nextjs: {
     name: "Next.js",
@@ -99,7 +98,6 @@ async function init() {
   );
 
   try {
-    // Pilih framework
     const frameworkAnswer = await inquirer.prompt([
       {
         type: "list",
@@ -189,7 +187,6 @@ async function init() {
         );
         createdCount++;
 
-        // Tambahkan index file
         if (answers.fileExtension !== "none") {
           const ext = answers.fileExtension;
           const filePath = path.join(dirPath, `index.${ext}`);
@@ -199,7 +196,6 @@ async function init() {
           );
         }
 
-        // Tambahkan README
         if (answers.addReadme) {
           const readmePath = path.join(dirPath, "README.md");
           await fs.writeFile(
@@ -213,7 +209,6 @@ async function init() {
           );
         }
 
-        // Tambahkan .gitkeep
         if (answers.addGitkeep) {
           const gitkeepPath = path.join(dirPath, ".gitkeep");
           await fs.writeFile(gitkeepPath, "");
