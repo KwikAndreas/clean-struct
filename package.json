@@ -1,6 +1,6 @@
 {
   "name": "@xavorus/clean-struct",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily make your project architecture clean",
   "main": "clean-struct.js",
   "bin": {

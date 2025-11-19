@@ -25,29 +25,6 @@ npm install -g @xavorus/clean-struct
 npx @xavorus/clean-struct
 ```
 
-### Local Development
-
-```bash
-git clone <your-repo>
-cd clean-arch
-npm install
-npm link
-```
-
-## 🎮 Usage
-
-Run the CLI in your project directory:
-
-```bash
-clean-struct
-```
-
-Or with npx:
-
-```bash
-npx @xavorus/clean-struct
-```
-
 ### Interactive Prompts
 
 1. **Choose your framework:**
@@ -198,9 +175,9 @@ MIT © Xavorus
 
 ## 🔗 Links
 
-- [GitHub Repository](#)
+- [GitHub Repository](https://github.com/KwikAndreas/clean-struct)
 - [NPM Package](https://www.npmjs.com/package/@xavorus/clean-struct)
-- [Report Issues](#)
+- [Report Issues](https://github.com/KwikAndreas/clean-struct/issues)
 
 ## 💡 Tips
 
